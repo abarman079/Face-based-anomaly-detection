@@ -1,0 +1,5 @@
+Model,Input Feature,Training Style,Decision Rule,Main Purpose
+KNN Distance Threshold,FaceNet embedding,Distance-based baseline,Nearest-distance threshold,Simple baseline comparison
+Isolation Forest,FaceNet embedding,Unsupervised anomaly detection,Outlier score,Main anomaly detection model
+MLP on FaceNet Embeddings,FaceNet embedding,Supervised deep neural network,Predicted anomaly probability,Deep-learning classification comparison
+Convolutional Autoencoder,Raw resized face image,Unsupervised reconstruction model,Reconstruction-error threshold,Deep anomaly detection comparison

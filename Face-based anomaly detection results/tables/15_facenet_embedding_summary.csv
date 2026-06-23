@@ -1,0 +1,4 @@
+Split,Successful_Embeddings,Embedding_Dimension
+Train,1019,512
+Validation,340,512
+Test,340,512

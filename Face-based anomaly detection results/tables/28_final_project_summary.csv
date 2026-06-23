@@ -1,0 +1,14 @@
+Project Item,Value
+Dataset,Labeled Faces in the Wild
+Normal Class Definition,Top five identities with most available samples
+Anomaly Class Definition,Other identities treated as unknown/anomalous
+Image Size,96 x 96 RGB images plus 512-D FaceNet embeddings
+Number of Models,Four
+Model 1,KNN Distance Threshold
+Model 2,Isolation Forest
+Model 3,MLP Neural Network on FaceNet Embeddings
+Model 4,Convolutional Autoencoder
+MLP Best Epoch,26
+Autoencoder Best Epoch,50
+Autoencoder Threshold,0.029272042
+Evaluation Metrics,"Accuracy, Precision, Recall, F1-score, FPR, ROC-AUC, Average Precision, Confusion Matrix"
